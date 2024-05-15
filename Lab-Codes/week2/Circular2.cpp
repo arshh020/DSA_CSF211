@@ -1,5 +1,5 @@
 //REVISED CODE
-#include <iostream>
+#include <bits/stdc++.h>
 #include <fstream>
 #include <cstdlib>
 using namespace std;

@@ -1,6 +1,5 @@
-#include <iostream>
+#include <bits/stdc++.h>
 #include <fstream>
-#include<string>
 using namespace std;
 
 #define MAX_SIZE 100
@@ -14,7 +13,7 @@ struct student {
   float cgpa;
 };
 
-student stack[MAX_SIZE];
+student studenStack[MAX_SIZE];
 int top = -1;
 
 bool isFull() {
@@ -30,14 +29,14 @@ void push(student data) {
     cout << "Stack overflow" << endl;
     return;
   }
-  stack[++top] = data;
+  studenStack[++top] = data;
 }
 
 student pop() {
   if (isEmpty()) {
     cout << "Stack underflow" << endl;
   }
-  return stack[top--];
+  return studenStack[top--];
 }
 
 void printStudent(student student) {

@@ -1,5 +1,5 @@
 //STATIC APPROACH
-#include <iostream>
+#include <bits/stdc++.h>
 #include <fstream>
 #include <cstdlib>
 #include <cstring>
